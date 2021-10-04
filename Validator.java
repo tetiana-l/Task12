@@ -2,7 +2,6 @@ package Task12;
 
 public class Validator {
     public static void checkIfSalaryPositiveNumber(double salary) throws TooSmallSalaryException {
-
         if (salary < 0) {
             throw new TooSmallSalaryException("Incorrect salary ", salary);
         }
